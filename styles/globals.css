@@ -32,4 +32,98 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to bottom,
+      rgb(239, 106, 34) 30%,
+      rgb(239, 34, 85) 70%,
+      rgb(252, 185, 0) 100%);
+}
+
+
+
+
+h1 { 
+  font-size: calc(20px + 3vw);
+  font-weight: 400;
+}
+
+h2 {
+  font-size: calc(20px + 2vw);
+  font-weight: 300;
+
+}
+
+h3 {
+  font-size: calc(20px + 1vw);
+  font-weight: 300;
+
+}
+
+h4 {
+  font-size: calc(20px + .5vw);
+  font-weight: 200;
+
+}
+
+h5 {
+  font-size: calc(20px + .1vw);
+  font-weight: 200;
+
+}
+
+
+p {
+  font-size: calc(10px + .5vw);
+  font-weight: 200;
+}
+
+li {
+  font-size: calc(10px + .5vw);
+  font-weight: 200;
+}
+
+
+@media (max-width: 800px) {
+
+
+
+  h1 { 
+    font-size: calc(3vh);
+    font-weight: 400;
+  }
+  
+  h2 {
+    font-size: calc(2.5vh);
+    font-weight: 300;
+  
+  }
+  
+  h3 {
+    font-size: calc(2vh);
+    font-weight: 300;
+  
+  }
+  
+  h4 {
+    font-size: calc(1.5vh);
+    font-weight: 200;
+  
+  }
+  
+  h5 {
+    font-size: calc(1vh);
+    font-weight: 200;
+  
+  }
+  
+  
+  p {
+    font-size: calc(10px + .5vw);
+    font-weight: 200;
+  }
+  
+  li {
+    font-size: calc(10px + .5vw);
+    font-weight: 200;
+  }
+  
 }

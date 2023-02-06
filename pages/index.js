@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import LandingPage from '@components/LandingPage'
+import styles from './index.module.css'
+
+
 
 export default function Home() {
   return (
@@ -10,10 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
+      <main className={styles.master_container}>
+        {/* <Header title="Welcome to my app!" /> */}
+        <LandingPage/>
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          {/* Get started by editing <code>pages/index.js</code> */}
         </p>
       </main>
 
