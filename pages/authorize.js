@@ -3,7 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import axios from 'axios';
 
-var axios = require("axios").default;
+// var axios = require("axios").default;
 
 var options = {
   method: 'PATCH',
