@@ -5,3 +5,20 @@
     width: 80%;
     top: 0%;
 }
+
+.chrome_button {
+    padding: 1vw;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+
+.chrome_button:hover {
+    padding: 1vw;
+    opacity: 80%;
+    cursor: pointer;
+ 
+}

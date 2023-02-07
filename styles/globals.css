@@ -33,9 +33,9 @@ code {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom,
-      rgb(239, 106, 34) 30%,
+      rgb(34, 126, 239) 30%,
       rgb(239, 34, 85) 70%,
-      rgb(252, 185, 0) 100%);
+      rgb(252, 164, 0) 100%);
 }
 
 
