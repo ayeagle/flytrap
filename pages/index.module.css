@@ -1,24 +1,59 @@
-.master_container{
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-    top: 0%;
+.master_container {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  top: 0%;
+  background-color: rgb(26, 26, 26);
 }
 
 .chrome_button {
-    padding: 1vw;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(255, 255, 255);
-    font-size: 2vw;
-    margin: 2vw;
+  padding: 1vw;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 2vw;
+  margin: 2vw;
 }
-
 
 .chrome_button:hover {
-    padding: 1vw;
-    opacity: 80%;
-    cursor: pointer;
- 
+  padding: 1vw;
+  opacity: 80%;
+  cursor: pointer;
 }
+
+.centering_unit {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* top: 20vw; */
+  font-size: 5vh;
+  padding: 5%;
+  height: 100%;
+  /* transition: 3s; */
+}
+
+.typing_animate {
+  white-space: pre-line;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 2, 2) 20%,
+    rgb(249, 149, 0) 80%
+  );
+  color: transparent;
+  animation: typing_animate 5s ease infinite;
+  background-size: 100% 100%;
+}
+
+/* @keyframes typing_animate {
+      0% {
+        background-position: left top;
+      }
+      100% {
+        background-position: right bottom;
+      }
+    } */
